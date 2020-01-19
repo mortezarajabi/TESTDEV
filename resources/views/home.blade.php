@@ -13,7 +13,6 @@
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="{{  asset('css/testdev.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
   <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
   <!-- Script: Make my navbar transparent when the document is scrolled to top -->
   <script src="{{ asset('js/navbar-ontop.js') }}"></script>
@@ -73,8 +72,7 @@
         </div>
       </div>
     </div>
-  </div>
-  
+  </div>  
   <div class="py-5 text-center" id="approach">
     <div class="container-fluid">
       <div class="row">
@@ -90,29 +88,29 @@
     </div>
   </div>
   <div class="" id="projects">
-    <div class="container-fluid no-gutters">
+    <div class="container-fluid no-gutters " style="padding-right: 0;padding-left: 0;">
       <div class="row my-3 no-gutters">
         <div class="col-md-9  offset-md-3
 align-self-center text-md-left">
-          <img class="img-fluid d-block animate-in-right animate-in-done" src="{{ asset('assets/render-01@2x.jpg') }}">
-          <p class="img-paragraph pr-5 mt-3">{{ $contents->where('title', 'Projects')->count() ? $contents->where('title', 'Projects')->first()->body : '' }}</p>
-          <a href="#" class="CTA">Explore Projects</a>
+          <img class="img-fluid d-block animate-in-right" src="{{ asset('assets/render-01@2x.jpg') }}">
+          <p class="img-paragraph pr-5 mt-3 sm-paragraph" >{{ $contents->where('title', 'Projects')->count() ? $contents->where('title', 'Projects')->first()->body : '' }}</p>
+          <a href="#" class="CTA sm-paragraph">Explore Projects</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="" id="projects">
+  <div id="projects">
     <div class="container-fluid">
-      <div class="row my-3">
-        <div class="text-md-left col-md-6 text-left" id="sus">
-          <img class="animate-in-left img-fluid animate-in-done" src="{{ asset('assets/illustration@2x.jpg') }}">
+      <div class="row my-3 mt-5">
+        <div class="text-md-left col-md-7 text-left" id="sus">
+          <img class="animate-in-left img-fluid" src="{{ asset('assets/illustration@2x.jpg') }}">
           <p class="img-paragraph mt-3">{{ $contents->where('title', 'Sustainability')->count() ? $contents->where('title', 'Sustainability')->first()->body : '' }}</p>
           <a href="#" class="CTA">Explore Sustainability</a>
         </div>
       </div>
-      <div class="row my-3 pb-5" id="collective">
-        <div class="offset-md-7 col-md-5">
-          <img class="d-block animate-in-right img-fluid animate-in-done" src="{{ asset('assets/01@2x.png') }}">
+      <div class="row my-3 pb-5 mt-5" id="collective">
+        <div class="offset-md-8 col-md-4">
+          <img class="d-block animate-in-right img-fluid" src="{{ asset('assets/01@2x.png') }}">
           <p class="img-paragraph mt-3">{{ $contents->where('title', 'Collective')->count() ? $contents->where('title', 'Collective')->first()->body : '' }}</p>
           <a href="#" class="CTA">Explore Collective</a>
         </div>
