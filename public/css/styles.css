@@ -1,0 +1,117 @@
+@font-face {
+  font-family: HelveticaNeueLTStd-Md;
+  src: local(HelveticaNeueLTStd-Md),
+    url(/css/HelveticaNeue/HelveticaNeueLTStd-Md.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueLTStd-Roman;
+  src: local(HelveticaNeueLTStd-Roman),
+    url(/css/HelveticaNeue/HelveticaNeueLTStd-Roman.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@media (min-width: 768px) { 
+  #collective {
+    margin-top: -320px !important;
+  }
+}
+
+.carousel-indicators {
+  left: initial !important;
+  right: 5% !important;
+  margin-right: 0 !important;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.headline {  
+  font-family: HelveticaNeueLTStd-Md !important;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.1px;
+  color: var(--black);
+}
+
+.nav-item {
+  font-family: HelveticaNeueLTStd-Md;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: var(--black);
+}
+
+.carousel-caption h5, .carousel-caption a {
+  font-family: HelveticaNeueLTStd-Md;
+  font-size: 28px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.1px;
+  color: var(--white);
+}
+
+.carousel-caption a {
+  text-decoration: underline;
+}
+
+.CTA {
+  font-family: HelveticaNeueLTStd-Md;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.1px;
+  color: var(--black);
+}
+
+
+.img-paragraph {
+  font-family: HelveticaNeueLTStd-Roman;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.35)
+}
+
+.footer-text {
+  font-family: HelveticaNeueLTStd-Md;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.1px;
+  color: var(--white);
+}
+
+.footer-address, .footer-address:hover {
+  font-family: HelveticaNeueLTStd-Md;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.1px;
+  color: var(--white);
+}
