@@ -14,3 +14,4 @@ Backend is implemented with Laravel 6.2
 - Run: php artisan migrate
 - Run: php artisan db:seed
 - Create user for admin panel: php artisan nova:user
+- Access admin panel: project-domain.test/nova

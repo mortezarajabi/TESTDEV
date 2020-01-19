@@ -98,7 +98,7 @@ class MetaTag extends Resource
         return [];
     }
 
-    protected function authorizedToDeleteForSerialization(NovaRequest $request)
+    public function authorizedToDelete(Request $request)
     {
         return false;
     }
